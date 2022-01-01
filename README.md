@@ -69,7 +69,7 @@ By default, the project will default to ChromeLocal (running a local Chrome inst
   * Utilities package contains helper methods which help to read the qa_config.properties file.
   * readConfig() class helps to access the qa_config properties
  
-    - Note: with same email address you can not create account , so with the help of Random() class created random email address before every run of the test. 
+    - Note: same email address you can not register an account , so with the help of Random() class I've created random email address before every run of the test. 
  
  ## KonaKart Pages ##
    
@@ -77,7 +77,8 @@ By default, the project will default to ChromeLocal (running a local Chrome inst
  * In Page Factory, I used @FindBy annotation. The initElements method is used to initialize web elements.
 
     * @FindBy: An annotation used in Page Factory to locate and declare web elements using different locators. Below is an example of declaring an element using @FindBy
-          * @FindBy(id="elementId") WebElement element;
+   
+          *@FindBy(id="elementId") WebElement element;
     
  * When all screens have independent java files, one can easily identify actions that will be performed on a particular screen by navigating through the java file.
  * If a change must be made to a certain section of code, it can be efficiently done without affecting other files.
