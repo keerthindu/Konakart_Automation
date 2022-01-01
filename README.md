@@ -78,7 +78,7 @@ By default, the project will default to ChromeLocal (running a local Chrome inst
 
     * @FindBy: An annotation used in Page Factory to locate and declare web elements using different locators. Below is an example of declaring an element using @FindBy
    
-          *@FindBy(id="elementId") WebElement element;
+          * @FindBy(id="elementId") WebElement element;
     
  * When all screens have independent java files, one can easily identify actions that will be performed on a particular screen by navigating through the java file.
  * If a change must be made to a certain section of code, it can be efficiently done without affecting other files.
@@ -113,11 +113,8 @@ By default, the project will default to ChromeLocal (running a local Chrome inst
      * A TestNG class is a Java class that contains at least one TestNG annotation. It is represented by the <class> tag and can contain one or more test methods.
      * A test method is a Java method annotated by @Test in your source.
  
- ![image](https://user-images.githubusercontent.com/85629580/147827825-7224503d-413c-4331-ab12-a21ba5c4f1a6.png)
-
+![image](https://user-images.githubusercontent.com/85629580/147847708-73262e78-271c-45fc-a957-ba045c155255.png)
  
 Note: TestNG plugin can be used to automatically generate testng.xml file so no need to write from scratch.
  
- ## Reports ##
- **You can find the test result in `target/surefire-reports/index.html`**
 
