@@ -108,7 +108,6 @@ By default, the project will default to ChromeLocal (running a local Chrome inst
         <artifactId>log4j-api</artifactId>
         <version>2.17.1</version>
     </dependency>
- 
     <dependency>
         <groupId>org.apache.logging.log4j</groupId>
         <artifactId>log4j-core</artifactId>
