@@ -101,12 +101,17 @@ By default, the project will default to ChromeLocal (running a local Chrome inst
  * Log4j2 with Properties configuration file provides a simple way of setting up logging in your Java application.
  * To setup log4j2 for logging we will need log4j2 dependencies, which we will provide in our project's pom.xml file. 
  
-     pom.xml file:
- 
-       ![image](https://user-images.githubusercontent.com/85629580/147847622-03eab9af-63ae-454b-ab0d-de0f2f48ec7e.png)
-
-    
- ![image](https://user-images.githubusercontent.com/85629580/147827503-e717732b-60e7-4191-be64-e2a3dd5ae7d4.png)
+ ## pom.xml ##   
+ <dependency>
+        <groupId>org.apache.logging.log4j</groupId>
+        <artifactId>log4j-api</artifactId>
+        <version>2.17.1</version>
+    </dependency>
+ <dependency>
+        <groupId>org.apache.logging.log4j</groupId>
+        <artifactId>log4j-core</artifactId>
+        <version>2.17.1</version>
+</dependency>
 
  ## testng.xml file ##
  
