@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-12-31T16:30:44 IST" name="All Test Suite" finished-at="2021-12-31T16:30:59 IST" duration-ms="15729">
+    <groups>
+    </groups>
+    <test started-at="2021-12-31T16:30:44 IST" name="KonaKart" finished-at="2021-12-31T16:30:59 IST" duration-ms="15729">
+      <class name="KonaKart_Tests.TC01_VerifyHomePage">
+        <test-method is-config="true" signature="setup()[pri:0, instance:KonaKart_Tests.TC01_VerifyHomePage@5ad10c1a]" started-at="2021-12-31T16:30:44 IST" name="setup" finished-at="2021-12-31T16:30:46 IST" duration-ms="2341" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyHomepageTitle()[pri:0, instance:KonaKart_Tests.TC01_VerifyHomePage@5ad10c1a]" started-at="2021-12-31T16:30:46 IST" name="verifyHomepageTitle" finished-at="2021-12-31T16:30:55 IST" duration-ms="9212" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomepageTitle -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:KonaKart_Tests.TC01_VerifyHomePage@5ad10c1a]" started-at="2021-12-31T16:30:55 IST" name="teardown" finished-at="2021-12-31T16:30:59 IST" duration-ms="4154" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- KonaKart_Tests.TC01_VerifyHomePage -->
+    </test> <!-- KonaKart -->
+  </suite> <!-- All Test Suite -->
+</testng-results>

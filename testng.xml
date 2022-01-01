@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test name="KonaKart">
+    <classes>
+        <class name="KonaKart_Tests.TC01_VerifyHomePage"/>
+        <class name="KonaKart_Tests.TC02_SelectGame"/>
+        <class name="KonaKart_Tests.TC03_ApplyPriceFilter"/>
+        <class name="KonaKart_Tests.TC04_AddLastToCart"/>
+        <class name="KonaKart_Tests.TC05_AddFirstItemsToCart"/>
+        <class name="KonaKart_Tests.TC06_OpenShopCart"/>
+        <class name="KonaKart_Tests.TC07_ProceedToCheckout"/>
+        <class name="KonaKart_Tests.TC08_ConfirmOrder"/>
+        <class name="KonaKart_Tests.TC09_VerifyPendingStatus"/>
+        <class name="KonaKart_Tests.TC10_VerifyPrice_Item"/>
+<!--        <methods>-->
+<!--            <include name="verifyHomepageTitle"/>-->
+<!--            <include name="SelectGame"/>-->
+<!--        </methods>-->
+    </classes></test></suite>

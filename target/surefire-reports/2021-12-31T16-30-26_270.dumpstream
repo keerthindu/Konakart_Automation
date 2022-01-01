@@ -1,0 +1,4 @@
+# Created at 2021-12-31T16:30:42.962
+Boot Manifest-JAR contains absolute paths in classpath 'E:\Java Code\KonaKart\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+
